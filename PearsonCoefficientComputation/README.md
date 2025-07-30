@@ -36,18 +36,18 @@ Do **not** include leading or trailing spaces.
 
 ## 📐 Pearson's Correlation Coefficient
 
-Karl Pearson's correlation coefficient is calculated using the following formula:
+Pearson's correlation coefficient is calculated using the formula:
 
-\[
-r = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2} \cdot \sqrt{\sum_{i=1}^{n}(y_i - \bar{y})^2}}
-\]
+```
+r = sum((xi - x̄) * (yi - ȳ)) / sqrt(sum((xi - x̄)^2) * sum((yi - ȳ)^2))
+```
 
 Where:
 
-- \( r \): Pearson's correlation coefficient  
-- \( x_i, y_i \): individual values from the datasets  
-- \( \bar{x}, \bar{y} \): means of the x and y datasets  
-- \( n \): number of data points
+- `r`: Pearson's correlation coefficient  
+- `xi`, `yi`: individual values from the datasets  
+- `x̄`, `ȳ`: means of the x and y datasets  
+- `n`: number of data points
 
 ---
 
