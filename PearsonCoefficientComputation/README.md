@@ -37,7 +37,7 @@ Do **not** include leading or trailing spaces.
 ## 📐 Pearson's Correlation Coefficient
 
 Karl Pearson's correlation coefficient is calculated using the following formula:\
-$$r = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2} \cdot \sqrt{\sum_{i=1}^{n}(y_i - \bar{y})^2}}$$
+$$r = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2\cdot\sum_{i=1}^{n}(y_i - \bar{y})^2}}$$
 
 
 Where:
