@@ -12,7 +12,7 @@ Given a dataset with **F features** and **N observations**, the goal is to train
 
 The model follows the form:
 
-$$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_FX_F$$
+$$\large Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_FX_F$$
 
 Where:
 - $Y$: dependent variable (target)
