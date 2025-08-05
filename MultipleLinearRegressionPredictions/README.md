@@ -24,25 +24,39 @@ Where:
 ## 📥 Input Format
 
 The program reads data via `stdin` in the following format:
+
 F N                                    # Number of features and observations
+
 $x_{11}$ x_{12} ... x_{1F} $y_{1}$     # Training data (features + target)
+
 $x_{21}$ $x_{22}$ ... $x_{2F}$ $y_{2}$
 ...
+
 $x_{N1}$ $x_{N2}$ ... $x_{NF}$ $y_{N}$
+
 T                                     # Number of test samples
+
 $t_{11}$ $t_{12}$ ... $t_{1F}$        # Test data (features only)
+
 $t_{21}$ $t_{22}$ ... $t_{2F}$
 ...
 
 
 
 **Example:**
+
 2 3 
+
 1.0 2.0 5.0 
+
 2.0 3.0 8.0 
+
 3.0 4.0 11.0
+
 2 
+
 1.5 2.5 
+
 2.5 3.5
 
 
@@ -53,8 +67,8 @@ $t_{21}$ $t_{22}$ ... $t_{2F}$
 For each test sample, the program outputs the predicted value rounded to **2 decimal places**:
 
 6.50 
-9.50
 
+9.50
 
 ---
 
