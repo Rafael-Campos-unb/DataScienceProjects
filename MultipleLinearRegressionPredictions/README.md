@@ -25,20 +25,20 @@ Where:
 
 The program reads data via `stdin` in the following format:
 ```
-F N                                    # Number of features and observations
+F N                    # Number of features and observations
 
-$x_{11}$ $x_{12}$ ... $x_{1F}$ $y_{1}$     # Training data (features + target)
+x11 x12 ... x1F y1     # Training data (features + target)
 
-$x_{21}$ $x_{22}$ ... $x_{2F}$ $y_{2}$
+x21 x22 ... x2F y2
 ...
 
-$x_{N1}$ $x_{N2}$ ... $x_{NF}$ $y_{N}$
+xN1 xN2 ... xNF yN
 
-T                                     # Number of test samples
+T                      # Number of test samples
 
-$t_{11}$ $t_{12}$ ... $t_{1F}$        # Test data (features only)
+t11 t12 ... t1F        # Test data (features only)
 
-$t_{21}$ $t_{22}$ ... $t_{2F}$
+t21 t22 ... t2F
 ...
 ```
 
@@ -158,7 +158,7 @@ $$\huge\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}
 ---
 
 ## ⚖️ When to Use Normal Equation vs Gradient Descent
-
+<div align="center">
 <table class="data-table">
   <thead>
     <tr>
@@ -195,6 +195,7 @@ $$\huge\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}
     </tr>
   </tbody>
 </table>
+</div>
 
 ---
 
