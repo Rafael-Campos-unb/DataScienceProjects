@@ -44,7 +44,7 @@ $t_{21}$ $t_{22}$ ... $t_{2F}$
 
 
 **Example:**
-
+```
 2 3 
 
 1.0 2.0 5.0 
@@ -58,18 +58,18 @@ $t_{21}$ $t_{22}$ ... $t_{2F}$
 1.5 2.5 
 
 2.5 3.5
-
+```
 
 ---
 
 ## 📤 Output Format
 
 For each test sample, the program outputs the predicted value rounded to **2 decimal places**:
-
+```
 6.50 
 
 9.50
-
+```
 ---
 
 ## 📐 Normal Equation Method
@@ -197,10 +197,12 @@ $$\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$$
 ---
 
 ## 🚀 Usage
-
+```
 python MLR.py < input.txt
+```
 Or provide input directly:
 
+```
 echo "2 3
 1.0 2.0 5.0
 2.0 3.0 8.0  
@@ -208,16 +210,21 @@ echo "2 3
 2
 1.5 2.5
 2.5 3.5" | python MLR.py
-
+```
 ✅ Result
 The final Python implementation successfully passed all test cases on the HackerRank platform using the Normal Equation method with LU decomposition for numerical stability.
 
 Check the complete implementation in MLR.py.
 
 📂 File Structure
+
+```
 ├── MLR.py              # Multiple Linear Regression implementation (Normal Equation)
 ├── MLR.png             # Matrix operations visualization diagram
 └── README.md           # Project documentation and mathematical explanation
+```
+
 🧠 Notes
+
 This project is ideal for students and data scientists seeking to understand the mathematical foundation of linear regression without relying on high-level machine learning libraries.
 The Normal Equation approach provides deep insights into the analytical solution of linear regression problems and serves as an excellent educational tool for understanding the underlying mathematics.
