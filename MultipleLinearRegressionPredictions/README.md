@@ -222,9 +222,13 @@ Check the complete implementation in MLR.py.
 📂 File Structure
 
 ```
-├── MLR.py              # Multiple Linear Regression implementation (Normal Equation)
-├── MLR.png             # Matrix operations visualization diagram
-└── README.md           # Project documentation and mathematical explanation
+├── MLR.py # Multiple Linear Regression implementation (Normal Equation) 
+├── MLR.png # Matrix operations visualization diagram 
+├── MLR.syntex.gz # Compressed syntax/configuration file 
+├── MLR_img.pdf # Matrix operations diagram (PDF format) 
+├── MLR_img.tex # LaTeX source code for matrix visualization 
+└── README.md # Project documentation and mathematical explanation
+
 ```
 
 🧠 Notes
