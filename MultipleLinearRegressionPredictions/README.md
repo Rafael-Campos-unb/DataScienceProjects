@@ -12,13 +12,13 @@ Given a dataset with **F features** and **N observations**, the goal is to train
 
 The model follows the form:
 
-$$\large Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_FX_F$$
+$$\huge Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_FX_F + \epsilon$$
 
 Where:
 - $Y$: dependent variable (target)
 - $X_i$: independent features
 - $\beta_i$: model coefficients (including intercept $\beta_0$)
-
+- $\epsilon$: error term
 ---
 
 ## 📥 Input Format
