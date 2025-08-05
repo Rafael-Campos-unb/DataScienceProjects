@@ -24,10 +24,10 @@ Where:
 ## 📥 Input Format
 
 The program reads data via `stdin` in the following format:
-
+```
 F N                                    # Number of features and observations
 
-$x_{11}$ x_{12} ... x_{1F} $y_{1}$     # Training data (features + target)
+$x_{11}$ $x_{12}$ ... $x_{1F}$ $y_{1}$     # Training data (features + target)
 
 $x_{21}$ $x_{22}$ ... $x_{2F}$ $y_{2}$
 ...
@@ -40,8 +40,7 @@ $t_{11}$ $t_{12}$ ... $t_{1F}$        # Test data (features only)
 
 $t_{21}$ $t_{22}$ ... $t_{2F}$
 ...
-
-
+```
 
 **Example:**
 ```
@@ -76,7 +75,7 @@ For each test sample, the program outputs the predicted value rounded to **2 dec
 
 The Normal Equation provides an analytical solution to find the optimal coefficients by minimizing the **Mean Squared Error (MSE)**:
 
-$$\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$$
+$$\huge\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$$
 
 Where:
 - $\boldsymbol{\theta}$: coefficient vector $[\beta_0, \beta_1, \ldots, \beta_F]^T$
@@ -85,7 +84,7 @@ Where:
 
 ### 🔢 Matrix Operations Visualization
 
-![Matrix Operations](MLR_img.png)
+<img src="MLR_img.png"alt="Matrix Operations"width="600">
 
 This represents the fundamental equation: $\mathbf{Y} = \mathbf{X}\boldsymbol{\theta}$
 
