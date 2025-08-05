@@ -84,7 +84,7 @@ Where:
 
 ### 🔢 Matrix Operations Visualization
 
-<img src="MLR_img.png"alt="Matrix Operations"width="600">
+<img src="MLR_img.png"alt="Matrix Operations"width="600"/>
 
 This represents the fundamental equation: $\mathbf{Y} = \mathbf{X}\boldsymbol{\theta}$
 
