@@ -84,7 +84,10 @@ Where:
 
 ### 🔢 Matrix Operations Visualization
 
-<img src="MLR_img.png" alt="Matrix Operations" width="600" />
+<div align="center">
+<img src="MLR_img.png" alt="Matrix Operations" width="600"/>
+</div>
+
 
 This represents the fundamental equation: $\mathbf{Y} = \mathbf{X}\boldsymbol{\theta}$
 
@@ -140,17 +143,17 @@ The script [`MLR.py`](MLR.py) implements the following steps:
 
 The Normal Equation is derived by minimizing the cost function:
 
-$$J(\boldsymbol{\theta}) = \frac{1}{2m}\|\mathbf{X}\boldsymbol{\theta} - \mathbf{Y}\|^2$$
+$$\huge J(\boldsymbol{\theta}) = \frac{1}{2m}\|\mathbf{X}\boldsymbol{\theta} - \mathbf{Y}\|^2$$
 
 Taking the gradient and setting it to zero:
 
-$$\frac{\partial J}{\partial \boldsymbol{\theta}} = \mathbf{X}^T(\mathbf{X}\boldsymbol{\theta} - \mathbf{Y}) = 0$$
+$$\huge\frac{\partial J}{\partial \boldsymbol{\theta}} = \mathbf{X}^T(\mathbf{X}\boldsymbol{\theta} - \mathbf{Y}) = 0$$
 
 Solving for $\boldsymbol{\theta}$:
 
-$$\mathbf{X}^T\mathbf{X}\boldsymbol{\theta} = \mathbf{X}^T\mathbf{Y}$$
+$$\huge\mathbf{X}^T\mathbf{X}\boldsymbol{\theta} = \mathbf{X}^T\mathbf{Y}$$
 
-$$\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$$
+$$\huge\boldsymbol{\theta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$$
 
 ---
 
